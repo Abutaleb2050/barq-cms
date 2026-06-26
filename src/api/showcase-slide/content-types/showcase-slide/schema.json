@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "showcase_slides",
+  "info": {
+    "singularName": "showcase-slide",
+    "pluralName": "showcase-slides",
+    "displayName": "Showcase Slide"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "keyword_ar": {
+      "type": "string"
+    },
+    "keyword_en": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

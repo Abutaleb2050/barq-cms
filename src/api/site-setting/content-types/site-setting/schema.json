@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_settings",
+  "info": {
+    "singularName": "site-setting",
+    "pluralName": "site-settings",
+    "displayName": "Site Setting"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "address_ar": {
+      "type": "string"
+    },
+    "address_en": {
+      "type": "string"
+    },
+    "socials": {
+      "type": "json"
+    }
+  }
+}

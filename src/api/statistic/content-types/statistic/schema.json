@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "statistics",
+  "info": {
+    "singularName": "statistic",
+    "pluralName": "statistics",
+    "displayName": "Statistic"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    },
+    "label_ar": {
+      "type": "string"
+    },
+    "label_en": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

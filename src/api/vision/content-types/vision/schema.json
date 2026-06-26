@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "visions",
+  "info": {
+    "singularName": "vision",
+    "pluralName": "visions",
+    "displayName": "Vision"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "vision_ar": {
+      "type": "string"
+    },
+    "vision_en": {
+      "type": "string"
+    },
+    "mission_ar": {
+      "type": "string"
+    },
+    "mission_en": {
+      "type": "string"
+    },
+    "positioning_ar": {
+      "type": "string"
+    },
+    "positioning_en": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pillars",
+  "info": {
+    "singularName": "pillar",
+    "pluralName": "pillars",
+    "displayName": "Pillar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title_ar": {
+      "type": "string",
+      "required": true
+    },
+    "title_en": {
+      "type": "string",
+      "required": true
+    },
+    "description_ar": {
+      "type": "richtext"
+    },
+    "description_en": {
+      "type": "richtext"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}
